@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise #2- Registration Form</title>
+    <style>
+        div{
+            border-style: dotted;
+            padding-top: 20px; 
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+        }
+        label{
+            margin-bottom: 5px;
+        }
+        input{
+            margin-bottom: 10px;
+        }
+        select{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Registration Form !</h2>
+    <div>
+        <h3>Personal details</h3><hr>
+        <form action="">
+            <label for="fname">First name: </label>
+            <input type="text" name="fname" id="fname" required><br>
+
+            <label for="lname">Last name: </label>
+            <input type="text" name="lname" id="lname" required><br>
+
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" required><br>
+
+            <label for="gender">Gender: </label>
+            <input type="radio" name="male" id="gender">
+            <label for="gender">Male</label>
+            <input type="radio" name="female" id="gender">
+            <label for="gender">Female</label><br>
+
+            <label for="city">City: </label>
+            <select name="city" id="city">
+                <option value="Amman">Amman</option>
+                <option value="Zarqa">Zarqa</option>
+                <option value="Madaba">Madaba</option>
+                <option value="Irbid">Irbid</option>
+                <option value="Jerash">Jerash</option>
+                <option value="Irbid">Irbid</option>
+            </select><br>
+
+            <input type="submit" value="Sign up">
+        </form>
+
+
+    </div>
+</body>
+</html>
